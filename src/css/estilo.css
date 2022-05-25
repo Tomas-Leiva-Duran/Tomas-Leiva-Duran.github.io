@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
 body {
-    background-image: url("../imagenes/background.png");
     background-position-x: center;
     background-position-y: center;
 }
@@ -86,6 +85,57 @@ footer .redes-footer .fa-instagram:hover {
     margin-top: 40px;
     color: #8e8e8e;
     font-weight: 500;
+}
+
+
+/* video */
+
+.img-fluid {
+    width: auto;
+    height: auto;
+}
+
+body {
+    position: relative;
+    margin: auto;
+}
+
+.sect {
+    width: 100%;
+    min-height: 500px;
+}
+
+#sect1,
+#sect3 {
+    background-color: #3333337d;
+    color: rgb(223, 250, 171);
+}
+
+#sect2 {
+    background-color: #dddddd7d;
+    color: #333;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
 }
 
 
