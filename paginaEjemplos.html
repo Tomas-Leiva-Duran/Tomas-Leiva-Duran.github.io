@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <video src="https://www.youtube.com/embed/ALBHwdTCfyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
+    <video src="https://www.youtube.com/embed/ALBHwdTCfyA" autoplay="true" muted="true" loop="true" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -90,6 +90,14 @@
         <br>
     </div>
     <!-- Pruebas de codigo-->
+
+    <div class="bg-success p-2 text-dark bg-opacity-10" aria-posinset="center" aria-setsize="multipart">
+
+    </div>
+
+    <div class="SlideShow__slideShowGroup__3G8Z7" style="width: 756px; transform: translate3d(0px, 0px, 0px);">
+
+    </div>
     <br>
     <form action="procesar.php">
 
@@ -212,13 +220,15 @@
 
     <!-- video -->
 
-    <div id="player"></div>
+    <i class="fa fa-align-center" aria-hidden="true">
+        <div id="player"></div>
+     </i>
 
     <script>
         // 2. This code loads the IFrame Player API code asynchronously.
         var tag = document.createElement('script');
 
-        tag.src = "https://www.youtube.com/iframe_api";
+        tag.src = "https://youtu.be/ALBHwdTCfyA";
         var firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
@@ -264,9 +274,10 @@
     <!--    Lo demás -->
 
     <div class=container align=center>
+        <i class="fa fa-align-center" aria-hidden="true">
         <div id="a" class="row">
 
-        </div>
+        </div></i>
     </div>
 
     <br><br>
