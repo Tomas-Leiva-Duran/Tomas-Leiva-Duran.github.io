@@ -3,6 +3,7 @@ body {
     background-clip: url("https://drive.google.com/file/d/1WJXy-UXwNtIus5zebJyoHOrpEFM42dke/view?usp=sharing");
     background-position-x: center;
     background-position-y: center;
+    -webkit-background-clip: url("https://drive.google.com/file/d/1WJXy-UXwNtIus5zebJyoHOrpEFM42dke/view?usp=sharing");
 }
 
 .container {
@@ -23,7 +24,7 @@ body {
 .container-footer {
     width: 100%;
     padding: 40px 0;
-    background: rgb(237, 195, 195);
+    background: rgb(65, 119, 130);
     margin-top: 40px;
 }
 
