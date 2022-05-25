@@ -53,7 +53,29 @@
         </div>
     </nav>
 
-    <br><br><br><br>
+    <br>
+    <script>
+        var nom = "12345 es una gran verdad"
+        document.getElementById("demo").innerHTML = nom;
+    </script>
+
+    <br>
+    <script>
+        var a = 35;
+        var b = "Un humano de confianza";
+        var c = 3.5;
+    </script>
+
+    <br>
+    <script>
+        function Sumar(a, b) {
+            var b = 0;
+            b = a + b;
+            return b;
+        }
+    </script>
+
+    <br>
 
     <!--Bienvenido a la pagina-->
     <div class="container" align=c enter>
@@ -63,13 +85,108 @@
         <h1 class="display-6">Aqui podras ver eventos y comprar entradas <br> para tus artistas favoritos</h1>
         <br>
     </div>
+    <!-- Pruebas de codigo-->
+    <br>
+    <form action="procesar.php">
 
-    <br><br><br>
+    </form>
 
-    <br><br><br>
+    <br>
+    <form action="procesar.php" enctype="multipart/form-data">
 
+    </form>
+    <br>
+    <form action="procesar.php" enctype="multipart/form-data" method="get">
+
+    </form>
+
+    <br>
+    <form action="procesar.php" enctype="multipart/form-data" method="get" name="contacto">
+
+    </form>
+    <br> Edad:
+    <input name="edad" type="text" value="" placeholder="Ingrese su edad">
+    <br>
+    <input type="text" name="rut" />
+    <input type="number" name="edad" />
+    <input type="password" name="pass" />
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+
+
+    <br>
+    <select name="alimento">
+        <option value="1">Pan</option>
+        <option value="2">Cebolla</option>
+        <option value="3">Maní</option>
+        <option value="4">Sandía</option>
+    </select>
+
+    <br>
 
     <br><br>
+    <select name="alimento">
+        <optgroup label="Lacteos">
+            <option value="1">Leche</option>
+            <option value="2">Queso</option>
+            <option value="3">Yogurt</option>
+            
+        </optgroup>
+
+        <optgroup label="Frutas">
+            <option value="1">Sandía</option>
+            <option value="2">Palta</option>
+            <option value="3">Naranja</option>
+            
+        </optgroup>
+    </select>
+
+    <br><br>
+    <select name="alimento" size="3">
+        <option value="1">Pan</option>
+        <option value="2">Cebolla</option>
+        <option value="3">Maní</option>
+        <option value="4">Sandía</option>
+    </select>
+
+    <br><br>
+    <textarea cols="20" rows="10"></textarea>
+
+    <br><br>
+    <button type="button">Clíc acá</button>
+    <br><br>
+
+    <label for="alimentos">Seleciona un alimento</label>
+    <select name="alimento" id="alimentos">
+        <option value="1">Pan</option>
+        <option value="2">Cebolla</option>
+        <option value="3">Maní</option>
+        <option value="4">Sandía</option>
+    </select>
+
+    <br><br>
+    <div>
+        <fieldset>
+            <legend>Tú comida</legend>
+            <label for="alimento">Seleciona un alimento</label>
+            <select name="alimento" id="alimento">
+                <option value="1">Pan</option>
+                <option value="2">Cebolla</option>
+                <option value="3">Maní</option>
+                <option value="4">Sandía</option>
+            </select>
+            <br>
+            <label for="nombre">Ingrese su nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <input type="submit" value="Enviar">
+            <br>
+        </fieldset>
+    </div>
+
+
+    <!--    Lo demás -->
 
     <div class=container align=center>
         <div id="a" class="row">
@@ -81,6 +198,7 @@
 
 
     <!-- Javascript -->
+    <script src="/js/libreriaMatematica.js"></script>
 
     <script type="text/javascript">
         $(function() {
